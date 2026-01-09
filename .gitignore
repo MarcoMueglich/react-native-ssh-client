@@ -10,17 +10,17 @@ lib/
 dist/
 *.tgz
 
-# # Android
-# android/build/
-# android/.gradle/
-# android/**/build/
-# android/**/.gradle/
-# android/app/build/
-# android/local.properties
-# *.iml
-# *.hprof
-# .cxx/
-# .externalNativeBuild
+# Android
+android/build/
+android/.gradle/
+android/**/build/
+android/**/.gradle/
+android/app/build/
+android/local.properties
+*.iml
+*.hprof
+.cxx/
+.externalNativeBuild
 
 # iOS (if added later)
 ios/build/
