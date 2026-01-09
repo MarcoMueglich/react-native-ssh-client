@@ -1,0 +1,33 @@
+buildscript {
+  ext.safeExtGet = {prop, fallback ->
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+  }
+  repositories {
+    google()
+    gradlePluginPortal()
+  }
+  dependencies {
+    classpath("com.android.tools.build:gradle:7.3.1")
+  }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'com.facebook.react'
+
+android {
+  compileSdkVersion safeExtGet('compileSdkVersion', 33)
+  namespace "com.rtnsshclient"
+}
+
+repositories {
+  mavenCentral()
+  google()
+}
+
+dependencies {
+  implementation 'com.facebook.react:react-native'
+  api 'com.github.mwiede:jsch:0.2.17'
+  api 'com.fasterxml.jackson.core:jackson-core:2.10.3'
+  api 'com.fasterxml.jackson.core:jackson-databind:2.10.3'
+  implementation 'org.bouncycastle:bcprov-jdk15on:1.70'
+}

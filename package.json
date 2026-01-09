@@ -1,0 +1,52 @@
+{
+  "name": "react-native-ssh-client",
+  "version": "0.0.1",
+  "description": "React Native SSH Client Module",
+  "main": "lib/sshclient.js",
+  "types": "lib/sshclient.d.ts",
+  "author": "Marco Mueglich",
+  "license": "MIT",
+  "homepage": "https://github.com/MarcoMueglich/react-native-ssh-client#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoMueglich/react-native-ssh-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarcoMueglich/react-native-ssh-client/issues"
+  },
+  "files": [
+    "lib",
+    "js",
+    "android",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "scripts": {
+    "build": "npm run compile && npm pack",
+    "compile": "npx tsc",
+    "prepublishOnly": "npm run compile"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNSshClientSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rtnsshclient"
+    }
+  }
+}
