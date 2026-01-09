@@ -2,6 +2,10 @@
 
 A React Native module for SSH client functionality, enabling secure shell connections from your React Native applications.
 
+## Disclaimer
+
+This package is based on the code from [react-native-ssh-sftp](https://github.com/dylankenneally/react-native-ssh-sftp) by Dylan Kenneally. The original package supports the old React Native architecture. This module adapts that code to work with React Native's new architecture (TurboModules).
+
 ## Features
 
 - 🔐 SSH connection with password or private key authentication
@@ -182,7 +186,7 @@ async function performSSHOperations() {
 ## Platform Support
 
 - ✅ Android
-- ⏳ iOS (Coming soon)
+- ⏳ iOS (not yet supported)
 
 ## Requirements
 
