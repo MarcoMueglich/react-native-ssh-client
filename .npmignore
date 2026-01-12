@@ -1,0 +1,41 @@
+# TypeScript config
+tsconfig.json
+
+# Tests
+**/__tests__
+**/__mocks__
+**/__fixtures__
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
+
+# Build artifacts
+android/build/
+android/.gradle/
+android/**/build/
+*.tgz
+
+# Development files
+.gitignore
+.git/
+.github/
+.vscode/
+.idea/
+*.log
+*.swp
+
+# Documentation (keep README.md)
+docs/
+examples/
+
+# CI/CD
+.travis.yml
+.circleci/
+.github/
+
+# Other
+node_modules/
+.DS_Store
+*.tsbuildinfo
+coverage/

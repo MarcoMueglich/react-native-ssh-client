@@ -1,6 +1,6 @@
 {
   "name": "react-native-ssh-client",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "React Native SSH Client Module",
   "main": "lib/sshclient.js",
   "types": "lib/sshclient.d.ts",
@@ -31,8 +31,17 @@
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "ssh",
+    "ssh-client",
+    "ssh2",
+    "shell",
+    "remote",
+    "secure-shell",
+    "android",
+    "turbomodule",
+    "new-architecture",
+    "remote-command",
+    "terminal"
   ],
   "devDependencies": {
     "typescript": "^5.9.3"
