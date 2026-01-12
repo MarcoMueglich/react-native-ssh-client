@@ -1,5 +1,5 @@
 {
-  "name": "react-native-ssh-client",
+  "name": "@marcomueglich/react-native-ssh-client",
   "version": "1.0.0",
   "description": "React Native SSH Client Module",
   "main": "lib/sshclient.js",
