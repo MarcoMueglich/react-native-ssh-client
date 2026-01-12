@@ -1,5 +1,9 @@
 # react-native-ssh-client
 
+[![npm version](https://badge.fury.io/js/react-native-ssh-client.svg)](https://www.npmjs.com/package/react-native-ssh-client)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-ssh-client.svg)](https://www.npmjs.com/package/react-native-ssh-client)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A React Native module for SSH client functionality, enabling secure shell connections from your React Native applications.
 
 ## Disclaimer
